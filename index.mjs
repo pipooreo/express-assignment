@@ -1,4 +1,5 @@
-const express = require("express");
+// const express = require("express");
+import express from "express";
 
 const app = express();
 const port = 4001;
@@ -20,3 +21,5 @@ app.get("/profiles", (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running ${port}`);
 });
+
+// app = module.express;
